@@ -1,0 +1,732 @@
+/* .text--center{
+
+
+display: flex;
+
+        height: 185px;
+    justify-content: center;
+    align-items: flex-end;
+}
+ */
+
+
+
+
+
+
+ .font-14{
+    font-size: 14px;
+}
+
+
+
+.font-18{
+    font-size: 18px !important;
+}
+
+
+.font--12{
+    font-size: 12px;
+}
+
+
+/* .text--center-above{
+
+    display: flex;
+    
+            height: 62px;
+        justify-content: center;
+        align-items: end;
+    } */
+
+
+    /* .text-ali-center{
+        text-align: center;
+    } */
+
+
+    /* .text--right{
+        text-align: right !important;
+    } */
+.mar--40{
+    margin-left: -75px;
+}
+
+.third-text{
+    margin: auto;
+    /* width: 328px; */
+    max-width: 24%;
+    border-left: 1px solid white;
+}
+
+/* .center-text-bg{
+    
+        background-color: #3C4049;
+    height: 75vh;
+} */
+
+
+.second-sec{
+    background-color: #363636;
+    
+}
+
+.second-sec-img{
+    width: 120px !important;
+    /* height: 120px !important; */
+}
+
+/* .second-sec-text{
+    margin: auto;
+    max-width: 616px;
+  color: #949494;
+} */
+
+.grey-color{
+  color: #949494;
+
+}
+
+.third-sec-img{
+    
+    width: 100%;
+    /* height: -43%; */
+    /* padding: 40px; */
+}
+
+.third-sec-text{
+    margin: auto;
+    max-width: 64%;
+}
+
+
+.third-sec-color{
+    color: white;
+}
+
+
+.third-sec-head{
+    padding-top: 40px;
+    display: flex;
+    /* justify-content: right; */
+    align-items: flex-end;
+    /* height: 100px; */
+}
+
+
+.fourth-sec{
+    height: 340px;
+    /* height: -43%;
+    padding: 40px; */
+}
+
+.fourth-sec-date{
+margin: auto;
+width: 34%;
+}
+
+
+.fifth-div{
+
+    width: 300px;
+    /* background-color: white; */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* .fifth-sec-justify{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+.fifth-div-center{
+    /* height: 450px;
+     */
+     padding-top: 100px;
+     padding-bottom: 100px;
+/* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.fifth-sec-text{
+    font-size: 14px;
+    margin: 0px 25px;
+}
+
+
+.fifth-box-shadow{
+    box-shadow: 0px 0px 0px 5px #dae0e599;
+}
+/* 
+.color-black{
+    color: black;
+} */
+
+
+/* .color-white{
+    color: white;
+} */
+
+/* .text-dec{
+    color:#6A6E77;
+    text-decoration: line-through;
+} */
+
+.btn--font{
+    padding: 10px 18px;
+    border-radius: 0px;
+    color:#5D5D5D;
+background-color: white;
+}
+
+
+
+.btn--font-shop{
+    padding: 10px 18px;
+    border-radius: 0px;
+   
+}
+
+.hr-color{
+    background-color: white;
+    width: 6%;
+    /* height: 2px; */
+    padding-top: 2px;
+}
+
+
+.hr-color-black{
+    background-color: #000000;
+    width: 6%;
+    /* height: 2px; */
+    padding-top: 2px;
+}
+
+
+.footer-col-2{
+    margin: auto;
+    max-width: 70%;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+ 
+
+/* .ht--bg-image{
+    height: 450px;
+} */
+
+/* .pl--0{
+    padding-left: 0px;
+} */
+
+/* .mt--0{
+    margin-top: 0px;
+} */
+
+
+.mt--0:hover{
+    text-shadow:5px 5px 5px white;
+    transition:  1s;
+    
+}
+.mt--0:hover .font--42{
+    font-size: 42px !important;
+ }
+
+ .mt--0:hover .font--18{
+    font-size: 18px !important;
+ }
+
+/* 
+ .mar-width{
+    margin: auto;
+    width: 100%;
+ } */
+
+
+ .mb--16{
+    margin-bottom: 16px;
+ }
+/* .ht--bg-image .font--42:hover{
+   font-size: 42px !important;
+}
+.ht--bg-image .font--18:hover{
+    font-size: 18px !important;
+ } */
+
+/* .cover-img{
+  
+
+
+
+}
+   */
+
+
+  .prod--0:hover img  {
+    transform: scale(1.1);
+    
+    transition-timing-function: linear;
+
+  }
+
+
+.img-carosol{
+    max-width: 78%;
+    margin-left: 60px;
+}
+
+.addTocart{
+    background-color: #e9ecef !important;
+}
+
+
+.mb--10{
+    margin-bottom: 10px !important;
+}
+
+
+.mr--6{
+    margin-right: 6px;
+}
+
+
+
+.pl--32{
+    padding-left: 38px;
+}
+
+.latest-prod-bg{
+    background-color: #e9ecef;
+    margin-top: 2px;
+}
+
+/* .ml--1{
+    margin-left: 1px !important;
+} */
+
+/* .active{
+    background-color: transparent;
+} */
+
+
+                                    /* responsive */
+
+
+                                    .accordion {
+                                        background-color: #eee;
+                                        color: #444;
+                                        cursor: pointer;
+                                        padding: 18px;
+                                        width: 100%;
+                                        border: none;
+                                        text-align: left;
+                                        outline: none;
+                                        font-size: 15px;
+                                        transition: 0.4s;
+                                      }
+                                      
+                                      /* .active, .accordion:hover {
+                                        background-color: #ccc; 
+                                      }
+                                       */
+                                      .panel {
+                                        padding: 0 18px;
+                                        display: none;
+                                        background-color: white;
+                                        overflow: hidden;
+                                      }
+@media screen and (max-width: 462px) 
+{
+              
+.font-12{
+    font-size: 14px;
+}
+
+.padd-left--0{
+    padding-left: 0px !important;
+}
+
+
+.padd-right--0{
+    padding-right: 0px !important;
+}
+}
+
+
+@media screen and (max-width: 962px) 
+{
+    
+    .img-carosol {
+        max-width: 68%;
+        margin-left: 46px;
+    }
+
+}
+
+@media screen and (max-width: 454px) 
+{
+    
+    .img-carosol {
+        max-width: 68%;
+        margin-left: 31px;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) 
+{
+    
+    .pl--32{
+        padding-left: 0px;
+    }
+
+    .pl---0{
+        padding-left: 0px;
+    }
+    /* .ml---5{
+          margin-top: 5px;
+    } */
+
+    /* .text-center-button{
+        text-align:center ! important;
+    } */
+
+   
+
+    .pb---14{
+        padding-bottom: 14px;;
+    }
+
+
+    .arrow-left{
+        position: relative;
+    right: 22px;
+    }
+
+    .arrow-right{
+        position: relative;
+    left: 22px;
+    }
+
+
+    .pd-left-12{
+        padding-left: 12px;
+    }
+
+    .pd-left-1{
+        padding-left: 1px;
+    }
+
+    .font--20{
+           font-size: 20px;
+    }
+
+
+    .mr--top--15{
+        margin-top: 15px;
+    }
+
+    .mr--top--0{
+        margin-top: 0px !important;
+
+    }
+
+    .mr--left--15{
+        margin-left: 15px !important;
+    }
+
+    .max--width-mob-l{
+        
+        max-width: 395px;
+    }
+
+
+    .max--width-lower-mob-l{
+        
+        max-width: 411px;
+    }
+   
+    .mr--right--10{
+        margin-right: 10px !important;
+    }
+
+    .quality_number-1 {
+        max-width: 25px !important;
+        text-align: center !important;
+        padding-left: 3px !important;
+    }
+
+
+    .mr-bottom--0{
+            margin-bottom: 0px ;
+    }
+
+
+    .text--center{
+        text-align:center ! important;
+    }
+
+    
+} 
+
+@media screen and (max-width: 768px) 
+{
+    
+    .footer-col-2{
+        margin: auto;
+        max-width: 96%;
+    }
+ 
+
+    .mr--right--10{
+        margin-right: 10px !important;
+    }
+
+    .quality_number-1 {
+        max-width: 25px !important;
+        text-align: center !important;
+        padding-left: 3px !important;
+    }
+
+    .mr--top--6{
+        margin-top: 6px;
+    }
+
+
+    .pl---0{
+        padding-left: 0px !important;
+    }
+ 
+}
+
+
+
+@media screen and (max-width: 375px) 
+{
+
+.pd--left-4{
+    padding-left: 4px;
+}
+
+}
+
+
+                        /* product page */
+
+.border-img{
+    border: 1px solid #dae0e5;
+}
+
+.final-price{
+    font-size: 30px;
+    max-width: 112px;
+    border: none;
+    outline: none;
+}
+
+.new_corner{
+    background-color: red;
+    /* padding-left: 0px !important; */
+    /* margin-left: 0px !important; */
+    position: relative;
+    left: -15px;
+    max-width: 48px;
+    font-size: 16px;
+    padding: 6px;
+    color: white;
+    padding-left: 6px;
+}
+
+
+.quality_number{
+    max-width: 50px;
+    text-align: center;
+    padding-left: 14px;
+}
+
+.fb-color{
+    color:#355599;
+
+}
+
+.but-border{
+    border:1px solid #6c757d54;
+}
+
+.ft-weight{
+    font-weight: bold !important;
+}
+
+.price-font{
+    margin-top: -4px;
+    font-size: 28px;
+}
+
+.nav-color.active{
+background-color:#FE980F !important;
+border-radius:0px  ! important;
+}
+
+.padd-right--15{
+    padding-right: 15px;
+}
+
+
+ <div class="container-fluid mb-4">
+            <div class="row contact_us">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-12">
+                                <form >
+                                 
+                                    <div class="form-group">
+                                    <label for="pwd"><b>Your Name:</b></label>
+                                    <input type="password" class="form-control" placeholder="Enter name" id="pwd">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email"><b>Email address:</b></label>
+                                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                        </div>
+
+                                    <div class="form-group">
+                                        <label for="pwd"><b>Subject:</b></label>
+                                        <input type="password" class="form-control" placeholder="Enter subject" id="pwd">
+                                        </div>
+                                    <div class="form-group">
+                                        <label for="comment"><b>Comment:</b></label>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                      </div>
+                                   
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                </form>
+                                            
+                    </div>
+            </div>
+
+
+        </div>
+
+            <div class="container-fluid ml---5 padd-right--0 pd--left-4" style="background-color: #222222;">
+        
+        
+                <div class="row footer-col-2 pt-3">
+            
+                            <div class="col-md-6 col-sm-6 col-6  pt-3 pd-left-1">
+                                  <!-- <ul style="list-style: none;">
+                                    <li> -->
+                                      <div class="pl--32 pl---0 paddleft--5">
+                                          <h4 class="text-white mb--16 font--20"><i><b>HandCraft</b></i></h4>
+                                   
+            
+                                          <span class="footer-text pt-3">lorum ipsum</span>
+                                      </div>
+            
+                                    <!-- </li>
+                                  </ul> -->
+            
+            
+                                  <ul style="list-style: none;" class="pt-4 pl---0 paddleft--5 ">
+                                                               <div>
+                                                                  <h4 class="text-white font--20"><b>Contact</b></h4>
+                                                                </div>
+                                                          
+                                                              <li class="pt-3 footer-text">
+                                                                              <span style="display: flex;"><i class="material-icons mr-3" style="font-size:20px">location_on</i><h6 class="font-12">Chicago, US
+                                                                              </h6></span>
+                                                              
+                                                              </li>
+                                                              <li class="footer-text">
+                                                                  
+                                                                        <span style="display: flex;" >   <i class="fa fa-phone mr-3 pt-2" style="font-size:20px"></i><h6 class="pd-l-8 pt-2 font-12" style="padding-left: 3px; ">
+                                                                            1515151515
+                                                                        </h6></span>
+                                                              </li>
+                                                              
+                                                              <li class="footer-text">
+                                                                        <span style="display: flex;"><i class="material-icons mr-3 pt-2" style="font-size:20px">email</i><h6 class="pt-2 font-12 font-12">
+                                                                        myemail@something.com
+                                                                    
+                                                      </h6></span>
+                                            </li>
+            
+            
+                               </ul>
+            
+            
+                          </div>
+            
+                          <div class="col-md-6 col-6 col-sm-6  pt-3 pd-left-1 ">
+                            <!-- <ul style="list-style: none;" class="mt-5">
+                                    <li> -->
+                                      <div style="padding-left: 40px;">
+                                        <h4 class="text-white font--20"><b>Follow Us</b></h4>
+                                      </div>
+                                    <!-- </li>
+                              </ul> -->
+            
+                                  <div style="padding-left: 38px;" class="d-flex pt-3">
+                                              <i class="fa fa-facebook text-white pr-3" style="font-size:24px"></i>
+            
+                                      
+                                      
+                                               <i class="fa fa-twitter text-white pr-3" style="font-size:24px"></i>
+                                        
+                                     
+                                              <i class="fa fa-google-plus text-white pr-3" style="font-size:24px"></i>
+                                       
+                                       
+                                              <!-- <i class="fa 	fa fa-linkedin text-white pr-3" style="font-size:24px"></i> -->
+            
+                                            </div>     
+                                         
+                                </ul>
+            
+            
+            
+                              <ul style="list-style: none;" class="pt-4">
+                                <li class="">
+                                  <h4 class="text-white font--20" style="margin-top: -8px;"><b> Quick Links</b></h4>   
+                              </li>
+            
+                              <li class="pt-2 font-12">
+                                <h6 class="footer-text font-12">About</h6>
+                              </li>
+                              <li class="pt-2 font-12">
+                                <h6 class="footer-text font-12">Service</h6>
+                            </li>
+                            <li class="pt-2 font-12">
+                              <h6 class="footer-text font-12">Return Police</h6>
+                          </li>
+                          <li class="pt-2 font-12">
+                                <h6 class="footer-text font-12">Offers</h6>
+                              </li>
+                              <li class="pt-2 font-12">
+                                <h6 class="footer-text font-12">Support</h6>
+                            </li>
+            
+            
+            </ul>
+                          </div>
+            
+            
+                </div>
+            <div class="row">
+            <div class="col-md-12 col-sm-12 col-12 text-center">
+              <span class="footer-text font--12">All rights reserved @ 2018 HandCraft</span>
+            
+            </div>
+            
+            </div>
+            
+            
+              
+              </div>

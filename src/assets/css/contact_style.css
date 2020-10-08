@@ -1,0 +1,122 @@
+
+.contact{
+    padding: 4%;
+    /* height: 400px; */
+}
+.col-md-3{
+    background: #ff9b00 !important;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+.col-border{
+    background: #ff9b00 !important;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.contact-info{
+    margin-top:10%;
+}
+/* .contact-info img{
+    margin-bottom: 15%;
+} */
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 84px;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+
+
+.contact_shadow{
+    border-radius: 6px;
+    box-shadow: 3px 0px 2px 2px #6c757d91;
+}
+
+
+.footer-text {
+    color: gray ! important;
+}
+
+
+.btn-color:hover{
+    background: #117a8b !important;
+  
+}
+
+.btn-color{
+    background: #ff9b00 !important;
+}
+
+
+
+
+
+                                                        /* responsive */
+
+
+@media screen and (max-width: 768px) 
+                 {
+
+                    .font-res-20{
+                        font-size: 20px;
+                    }
+
+                    .font-res-18{
+                        font-size: 18px;
+                    }
+
+                 }
+
+
+@media screen and (max-width:578px) 
+                 {
+
+                    .row-width{
+                        max-width: 420px;
+                        margin: auto;
+                    }
+
+                    .contact_shadow{
+                        border-radius: 6px;
+                        box-shadow: 2px 0px 2px 2px #6c757d91;
+                    }
+                    
+                          
+
+                 }
+
+
+
+
+
+@media screen and (max-width: 425px)
+                 {
+            .row-width {
+                max-width: 350px;
+                margin: auto;
+            }
+
+}
