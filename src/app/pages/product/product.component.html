@@ -104,7 +104,7 @@
 
                                                 <!-- <label for="cars">Quantity</label><br> -->
                                                 <input type="text" value="US $59" class="final-price ft-weight price-font marleft--3 pb-2" style="color:#FE980F;" />
-                                        <div class="pb-2" style="width: 160px;">
+                                        <!-- <div class="pb-2" style="width: 160px;">
 
                                                 <label for="cars" class="mr-bottom--0"><b>Size:</b> &nbsp;</label>
                                                 <select id="cars" name="cars" class="mr-3 mr--right--10" style="margin-left: 33px;">
@@ -114,7 +114,7 @@
                                                 <option value="audi">XXL</option>
                                                 </select>
 
-                                          </div>
+                                          </div> -->
                                           <div class="pb-2" style="width: 160px;">
                                                 <label for="cars" class="mr-bottom--0"><b>Quantity:</b> &nbsp;</label>
                                             <!-- <input type="number" value="3"  class="mr-3 mr--right--10 quality_number quality_number-1"/> -->
@@ -129,7 +129,7 @@
                                               </div>
 
 
-                                            <button type="submit" class="btn btn-primary mr--top--6 pb-2" style="background-color: #FE980F;border: none;font-weight: 600;width: 160px;"><i class="fa fa-shopping-cart mr--6"></i>Add to Cart</button>
+                                            <button type="submit" class="btn btn-primary shadow-none mr--top--6 pb-2" style="background-color: #FE980F;border: none;font-weight: 600;width: 160px;" (click)="navigateToCollection()"><i class="fa fa-shopping-cart mr--6"></i>Add to Cart</button>
                                             </form>
                                         </li>
                                      <!-- </div>
@@ -141,29 +141,104 @@
                                             <h6><span style="color:#75736F;" class="ft-weight">Brand:</span><span class="text-black-50"> E-SHOPPER</span></h6>
 
                                         </li>
+
+
+                                        <div class="pt-4">
+                                          <div class="tab-content">
+                                          
+
+                                            <div class="tab-pane active container pl-0" id="home"><span class="pr-2"><b>COLOR:</b></span>Pink</div>
+                                            <div class="tab-pane container pl-0" id="menu1"><span class="pr-2"><b>COLOR:</b></span>Red</div>
+                                            <div class="tab-pane container pl-0" id="menu2"><span class="pr-2"><b>COLOR:</b></span>Gray</div>
+                                          </div>
+
+
+                                          <ul class="nav pl-3 pt-1" >
+                                            <li class="nav-item">
+                                              <a class="nav-link pl-0" data-toggle="tab" href="#home"><span class="dottab" style="background: var(--pink);"></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link pl-0" data-toggle="tab" href="#menu1" ><span class="dottab" style="background: var(--red);"></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link pl-0" data-toggle="tab" href="#menu2"><span class="dottab"></span></a>
+                                            </li>
+                                          </ul>
+                              </div>
+
+
+
+                              <div class="pt-4">
+                                <div class="tab-content">
+                                
+
+                                  <div class="tab-pane active container pl-0" id="home1"><span class="pr-2"><b>Size:</b></span></div>
+                                  <div class="tab-pane container pl-0" id="menu3"><span class="pr-2"><b>Size:</b></span></div>
+                                  <div class="tab-pane container pl-0" id="menu4"><span class="pr-2"><b>Size:</b></span></div>
+                                </div>
+
+
+                                <ul class="nav pl-3 pt-1" >
+                                  <div class="container">
+                                  <div class="row" style="max-width: 284px;">
+                                    <div class="col-4 col-md-4 pl-0">
+                                                    <li class="nav-item">
+                                                      <a class="nav-link pl-0" data-toggle="tab" href="#home1">
+                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                          <h6><b>M</b></h6>
+                                                          <h6><b>US $ 53</b></h6>
+
+                                                        </div>
+
+                                                      </a>
+                                                    </li>
+
+                                                  </div>
+
+                                    <div class="col-4 col-md-4 pl-0">
+
+                                                    <li class="nav-item">
+                                                      <a class="nav-link pl-0" data-toggle="tab" href="#menu3" >
+                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                          <h6><b>XL</b></h6>
+                                                          <h6><b>US $ 53</b></h6>
+
+                                                        </div>
+
+
+                                                      </a>
+                                                    </li>
+
+                                                  </div>
+                                      <div class="col-4 col-md-4 pl-0">
+                                    
+                                                    <li class="nav-item">
+                                                      <a class="nav-link pl-0" data-toggle="tab" href="#menu4">
+                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                          <h6><b>2XL</b></h6>
+                                                          <h6><b>US $ 53</b></h6>
+
+                                                        </div>
+
+                                                        
+                                                      </a>
+                                                    </li>
+
+                                                  </div>
+
+
+                                </div>
+                              </div>
+                                </ul>
+                    </div>
+
+
                                     </ul>
-                <!-- <div class="container pl-0 mb-5">
-                                <div class="row">
-                                        <div class="col-md-12 col-sm-12 col-12">
-                                                        <ul style="list-style: none;" class="nav pl-4 pt-2">
-                                                            <li class="nav-item pl-3">
-                                                                <button type="submit" class="btn btn-primary but-border" style="background-color: #dee2e6;"><i class="fa fa-facebook-official mr--6 fb-color"></i><span style="color:#7182C8;font-weight: 600;">Like</span></button>
-
-                                                            </li>
-                                                            <li class="nav-item pl-3">
-                                                                <button type="submit" class="btn btn-primary but-border" style="background-color: #E1E1E1;"><i class="fa fa-twitter mr--6 font-18" style="color: #00AAF0;"></i><span style="color:#000000;font-weight: 600;"><b>Tweet</b></span></button>
-
-                                                            </li>
-
-                                                            <li class="nav-item pl-3">
-                                                                <button type="submit" class="btn btn-primary but-border" style="background-color: #E1E1E1;"><i class="fab fa-pinterest-p mr--6 mr-0 ft-weight" style="color:#D13536"></i><i class="ft-weight"><span style="color:#D13536" >in it</span></i></button>
-
-                                                            </li>
-                                                        </ul>
-                                                </div>
-
-                                        </div>
-                                    </div> -->
+                                     
+                                    
+                                    
+                                    <!-- Tab panes -->
+                                   
             </div>
 
 
@@ -183,19 +258,19 @@
         <div class="">
     <ul class="nav nav-pills" style="background-color: #222222;;">
         <li class="nav-item">
-        <a class="nav-link active nav-color text-white" data-toggle="pill" href="#home"><b>DETAILS</b></a>
+        <a class="nav-link active nav-color text-white" data-toggle="pill" href="#details1"><b>DETAILS</b></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link nav-color text-white" data-toggle="pill" href="#menu1"><b>EXTRA DETAILS</b></a>
+        <a class="nav-link nav-color text-white" data-toggle="pill" href="#details2"><b>EXTRA DETAILS</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-color text-white" data-toggle="pill" href="#menu2"><b>REVIEWS</b></a>
+          <a class="nav-link nav-color text-white" data-toggle="pill" href="#details3"><b>REVIEWS</b></a>
           </li>
     </ul>
     
     <!-- Tab panes -->
     <div class="tab-content bg-white">
-        <div class="tab-pane container active paddleft--0" id="home">
+        <div class="tab-pane container active paddleft--0" id="details1">
             <div class="container">
                 <div class="row pt-3">
                       <div class="col-md-3 col-sm-6 col-6">
@@ -247,7 +322,7 @@
 
             </div>
         </div>
-        <div class="tab-pane container fade" id="menu1">
+        <div class="tab-pane container fade" id="details2">
             <div class="container">
                 <div class="row pt-3">
                          <div class="col-md-3 col-sm-4 col-6">
@@ -295,7 +370,7 @@
               </div>
             </div>
 
-            <div class="tab-pane container fade" id="menu2">
+            <div class="tab-pane container fade" id="details3">
               <div class="pl--32 pt-3 pb-2">
                 <span class="heading font--15">Ratings & Reviews
                 </span><br>

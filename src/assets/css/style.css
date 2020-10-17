@@ -4,11 +4,24 @@
     font-size: 14px;
 }
 
+
+.font-15{
+    font:15px !important;
+    
+}
+
 .font-18{
     font-size: 18px !important;
 }
 
+.font-16{
+    font-size: 16px !important;
 
+}
+.font-16{
+    font-size: 16px !important;
+
+}
 
 .font-24{
     font-size: 24px;
@@ -399,7 +412,7 @@ select#cars {
             
             
                 .mr--top--15{
-                    margin-top: 15px;
+                    margin-top: 26px;
                 }
             
                 .mr--top--0{
@@ -441,7 +454,7 @@ select#cars {
 
                 .nav-link {
                     display: block !important;
-                    padding: .5rem 12px !important;
+                    /* padding: .5rem 12px !important; */
                 }
                 .font-24{
                     font-size: 24px;
@@ -464,9 +477,42 @@ select#cars {
                 .mar--top-24{
                     margin-top: 24px;
                 }
+
+                .mobile-width{
+                   width: 100% !important;
+                }
+
+                .padd-top-16{
+                    padding-top: 16px !important;
+                }
+
+
+                .center-color{
+                    margin: auto;
+                    max-width: 220px;
+                    justify-content: center;
+
+                }
+
+                .center-size{
+                    margin: auto;
+                    max-width: 240px;
+                }
+                
             } 
  
             
+
+@media screen and (min-width: 426px) 
+            {
+
+
+            .mar--left--20{
+                margin-left: 20px ! important;
+            }
+
+            }
+
 
 
 @media screen and (max-width: 414px) 
@@ -520,6 +566,8 @@ select#cars {
                     margin-left: -3px;
 
                 }
+
+               
             }
                    
             
@@ -610,7 +658,7 @@ border-radius:0px  ! important;
 
 
 
-                body {
+                /* body {
                     font-family: "Lato", sans-serif;
                   }
                   
@@ -621,7 +669,8 @@ border-radius:0px  ! important;
                     z-index: 1;
                     top: 0;
                     right: 0;
-                    background-color: #222222;
+                  
+                    background-color: #B14835;
                     overflow-x: hidden;
                     transition: 0.5s;
                     padding-top: 60px;
@@ -639,20 +688,21 @@ border-radius:0px  ! important;
                   
                   .sidenav a:hover {
                     color: #FE980F;
+                  
+
 
                   }
                   
                   .sidenav .closebtn {
                     position: absolute;
-                    top: 0;
-                    right: 25px;
+                    top: -16;
+                    right: 78px;
+                    top: -16px;
                     font-size: 36px;
                     margin-left: 50px;
                   }
+                   */
                   
-                  
-
-
 /* hover  image */
 
 .image {
@@ -670,7 +720,7 @@ border-radius:0px  ! important;
 
 
   .overlay-down {
-    margin-bottom: 1px;
+    margin-bottom: 0px;
     position: absolute;
     bottom: 0%;
     left: 1px;

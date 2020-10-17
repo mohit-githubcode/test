@@ -71,7 +71,7 @@
                                                   </h4>
     
                                                   <!-- <button type="button" class="btn btn-primary ml-4">READ MORE</button> -->
-                                                  <button type="button" class="btn  ml-2  mt-4   text-white" style="background-color: #FE980F">READ MORE</button>
+                                                  <button type="button" class="btn  ml-2  mt-4 shadow-none  text-white" style="background-color: #FE980F">READ MORE</button>
                                                   
     
                                             </div>
@@ -94,14 +94,24 @@
                 <div class="row">
     
                       <div class="col-md-6 col-6">
-                        <h2 class="mt-3 font-20 "><b>30% SALE OFF</b></h2>
-    
+                        <!-- <h2 class="mt-3 font-20 "><b>30% SALE OFF</b></h2> -->
+
+                        <div style="width: 200px;">
+                                  <h3 class="mt-3  mb-3"><b>Shop For</b></h3>
+                                
+                                  <button class="collect-btn pl-0">
+                                  <h4 class="mt-3 font-18 mb-3" style="color: #dc3545d1;" (click)="navigateToCollection()"><b>More categories</b><i class="material-icons align-middle" style="font-size:20px">keyboard_arrow_right</i></h4>
+
+                              </button>
+
+                            </div>
+                      <!-- class="collection-btn" -->
                       </div>
     
-                      <div class="col-md-6 col-6 text-right" >
+                      <!-- <div class="col-md-6 col-6 text-right" >
                         <h2 class="mt-3 font-20">SHOP ALL <i class="fa fa-long-arrow-right ml-2"  style="font-size:24px"></i></h2>
     
-                      </div>
+                      </div> -->
     
                 </div>
                 <div style="clear: both;"></div>
@@ -109,13 +119,14 @@
                 <div class="row pb-4">
                             <div class="col-md-6 col-12 col-sm-6 ">
                               <!-- class="w--100" -->
-                                             <div class="w--100">
+                                             <div class="w--100 mb-4">
                                                     <img src="http://test.lunartheme.com/jakiro/wp-content/uploads/2015/10/l1-400x500.jpg" class="image" />
     
                                                 
                                                     <div class="overlay-down text-center">
                                                       <div class="text">Easy Polo Black Edition</div>
-                                                      <button type="button" class="btn btn  collection-btn text-white" style="background-color: #FE980F">For More Collections</button>
+                                                      
+                                                      <button type="button" class="btn btn  shadow-none collection-btn text-white" style="background-color: #FE980F"  (click)="navigateToCollection()">For More Collections</button>
                                                     </div>
                                             </div>
     
@@ -128,21 +139,21 @@
                                                      
                                                     <div class="overlay-down text-center">
                                                       <div class="text">Easy Polo Black Edition</div>
-                                                      <button type="button" class="btn btn  collection-btn text-white" style="background-color: #FE980F">For More Collections</button>
+                                                      <button type="button" class="btn btn shadow-none  collection-btn text-white" style="background-color: #FE980F" (click)="navigateToCollection()">For More Collections</button>
                                                     </div>
                                                     
                                             </div>
                             </div>
-                            <div class="col-md-6 col-12 col-sm-6 text-right" >
+                            <div class="col-md-6 col-12 col-sm-6 text-right padd-top-16" >
     
     
-                              <div class="w--100">
+                              <div class="w--100 mb-4">
                                   <img src="http://test.lunartheme.com/jakiro/wp-content/uploads/2015/10/n1-400x500.jpg"  class="image mar-top--8"/>
                                  
                                  
                                   <div class="overlay-down text-center">
                                     <div class="text">Easy Polo Black Edition</div>
-                                    <button type="button" class="btn btn  collection-btn text-white" style="background-color: #FE980F">For More Collections</button>
+                                    <button type="button" class="btn btn  collection-btn shadow-none text-white" style="background-color: #FE980F" (click)="navigateToCollection()">For More Collections</button>
                                   </div>
                             </div>
                                   <!-- <img src="" style="
@@ -153,7 +164,7 @@
                                    
                                     <div class="overlay-down text-center">
                                       <div class="text">Easy Polo Black Edition</div>
-                                      <button type="button" class="btn btn  collection-btn text-white" style="background-color: #FE980F">For More Collections</button>
+                                      <button type="button" class="btn btn  collection-btn shadow-none text-white" style="background-color: #FE980F" (click)="navigateToCollection()">For More Collections</button>
                                     </div>
                             </div>
                               </div>
@@ -189,15 +200,110 @@
                                                         <div >
                                                           <!-- class="text-center pt-1" -->
                                                           <div class="row">
-                                                            <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4">
+                                                            <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4 pr-4">
                                                               <h4><b>$51</b></h4>
                                                               <p class="mb--10">Easy Polo Black Edition</p>
-                                                          
+                                                                 <!-- color start      -->
+                                                                <div class="">
+                                                                  <div class="tab-content">
+                                                                  
+
+                                                                    <div class="tab-pane active container pl-0" id="color1"><span class="pr-2"><b>COLOR:</b></span>Pink</div>
+                                                                    <div class="tab-pane container pl-0" id="color2"><span class="pr-2"><b>COLOR:</b></span>Red</div>
+                                                                    <div class="tab-pane container pl-0" id="color3"><span class="pr-2"><b>COLOR:</b></span>Gray</div>
+                                                                  </div>
+
+                                                
+                                                                  <ul class="nav pl-0 pt-1  pl-0 center-color mar--left--20">
+                                                                    <li class="nav-item ">
+                                                                      <a class="nav-link pl-0" data-toggle="tab" href="#color1"><span class="dottab" style="background: var(--pink);"></span></a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                      <a class="nav-link pl-0" data-toggle="tab" href="#color2" ><span class="dottab" style="background: var(--red);"></span></a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                      <a class="nav-link pl-0" data-toggle="tab" href="#color3"><span class="dottab"></span></a>
+                                                                    </li>
+                                                                  </ul>
+                                                                </div>
+                                        
+                                                                    <!-- color end -->
+
+                                                                  <!-- size start -->
+
+                                                                  <div class="">
+                                                                    <div class="tab-content">
+                                                                    
+                                    
+                                                                      <div class="tab-pane active container pl-0" id="home1"><span class="pr-2"><b>Size:</b></span></div>
+                                                                      <div class="tab-pane container pl-0" id="menu3"><span class="pr-2"><b>Size:</b></span></div>
+                                                                      <div class="tab-pane container pl-0" id="menu4"><span class="pr-2"><b>Size:</b></span></div>
+                                                                    </div>
+                                    
+                                    
+                                                                    <ul class="nav  pt-1 center-size" >
+                                                                      <div class="container pr-0">
+                                                                        <!-- style="max-width: 330px;" -->
+                                                                      <div class="row" >
+                                                                        <div class="col-4 col-md-4 pl-0">
+                                                                                        <li class="nav-item">
+                                                                                          <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#home1">
+                                                                                            <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                              <h6><b>M</b></h6>
+                                                                                              <h6><b>US $ 53</b></h6>
+                                    
+                                                                                            </div>
+                                    
+                                                                                          </a>
+                                                                                        </li>
+                                    
+                                                                                      </div>
+                                    
+                                                                        <div class="col-4 col-md-4 pl-0">
+                                    
+                                                                                        <li class="nav-item">
+                                                                                          <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu3" >
+                                                                                            <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                              <h6><b>XL</b></h6>
+                                                                                              <h6><b>US $ 53</b></h6>
+                                    
+                                                                                            </div>
+                                    
+                                    
+                                                                                          </a>
+                                                                                        </li>
+                                    
+                                                                                      </div>
+                                                                          <div class="col-4 col-md-4 pl-0">
+                                                                        
+                                                                                        <li class="nav-item">
+                                                                                          <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu4">
+                                                                                            <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                              <h6><b>2XL</b></h6>
+                                                                                              <h6><b>US $ 53</b></h6>
+                                    
+                                                                                            </div>
+                                    
+                                                                                            
+                                                                                          </a>
+                                                                                        </li>
+                                    
+                                                                                      </div>
+                                    
+                                    
+                                                                    </div>
+                                                                  </div>
+                                                                    </ul>
+                                                        </div>
+                                    
+
+
+                                                                  <!-- size end -->
                                                             </div>
-                                                          <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4">
+                                                          <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4 pt-2">
                                                               <!-- <a href="#" class="btn btn-default add-to-cart " style="background-color: #adb5bd !important;"><i class="fa fa-shopping-cart mr--6"></i></a> -->
                                                           
-                                                              <button type="button" class="btn btn-default add-to-cart text-white"  style="background-color: #FE980F"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
+                                                              <button type="button" class="btn btn-default shadow-none add-to-cart text-white"  style="background-color: #FE980F" (click)="navigateToProduct()"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
                                                             </div>
                                                        
                                                             </div>
@@ -213,14 +319,109 @@
                                           
                                                     <img src="https://cdn.shopify.com/s/files/1/0071/4755/2866/products/1-6_550ef36b-84f5-40c6-ac8e-6e8516d03445_1024x1024.jpg?v=1570400269" class="third-sec-img pt-0 pb-2" />
                                                     <div class="row">
-                                                      <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4">
+                                                      <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4 pr-4">
                                                         <h4><b>$54</b></h4>
                                                         <p class="mb--10">Easy Polo Black Edition</p>
-                                                    
+                                                         <!-- color start      -->
+                                                         <div class="">
+                                                          <div class="tab-content">
+                                                          
+
+                                                            <div class="tab-pane active container pl-0" id="color4"><span class="pr-2"><b>COLOR:</b></span>Pink</div>
+                                                            <div class="tab-pane container pl-0" id="color5"><span class="pr-2"><b>COLOR:</b></span>Red</div>
+                                                            <div class="tab-pane container pl-0" id="color6"><span class="pr-2"><b>COLOR:</b></span>Gray</div>
+                                                          </div>
+
+                                        
+                                                          <ul class="nav pl-0 pt-1  pl-0 center-color mar--left--20">
+                                                            <li class="nav-item ">
+                                                              <a class="nav-link pl-0" data-toggle="tab" href="#color4"><span class="dottab" style="background: var(--pink);"></span></a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                              <a class="nav-link pl-0" data-toggle="tab" href="#color5" ><span class="dottab" style="background: var(--red);"></span></a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                              <a class="nav-link pl-0" data-toggle="tab" href="#color6"><span class="dottab"></span></a>
+                                                            </li>
+                                                          </ul>
+                                                        </div>
+                                
+                                                            <!-- color end -->
+
+                                                          <!-- size start -->
+
+                                                          <div class="">
+                                                            <div class="tab-content">
+                                                            
+                            
+                                                              <div class="tab-pane active container pl-0" id="color7"><span class="pr-2"><b>Size:</b></span></div>
+                                                              <div class="tab-pane container pl-0" id="color8"><span class="pr-2"><b>Size:</b></span></div>
+                                                              <div class="tab-pane container pl-0" id="color9"><span class="pr-2"><b>Size:</b></span></div>
+                                                            </div>
+                            
+                            
+                                                            <ul class="nav  pt-1 center-size" >
+                                                              <div class="container pr-0">
+                                                                <!-- style="max-width: 330px;" -->
+                                                              <div class="row" >
+                                                                <div class="col-4 col-md-4 pl-0">
+                                                                                <li class="nav-item">
+                                                                                  <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#color7">
+                                                                                    <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                      <h6><b>M</b></h6>
+                                                                                      <h6><b>US $ 53</b></h6>
+                            
+                                                                                    </div>
+                            
+                                                                                  </a>
+                                                                                </li>
+                            
+                                                                              </div>
+                            
+                                                                <div class="col-4 col-md-4 pl-0">
+                            
+                                                                                <li class="nav-item">
+                                                                                  <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#color8" >
+                                                                                    <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                      <h6><b>XL</b></h6>
+                                                                                      <h6><b>US $ 53</b></h6>
+                            
+                                                                                    </div>
+                            
+                            
+                                                                                  </a>
+                                                                                </li>
+                            
+                                                                              </div>
+                                                                  <div class="col-4 col-md-4 pl-0">
+                                                                
+                                                                                <li class="nav-item">
+                                                                                  <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#color9">
+                                                                                    <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                      <h6><b>2XL</b></h6>
+                                                                                      <h6><b>US $ 53</b></h6>
+                            
+                                                                                    </div>
+                            
+                                                                                    
+                                                                                  </a>
+                                                                                </li>
+                            
+                                                                              </div>
+                            
+                            
+                                                            </div>
+                                                          </div>
+                                                            </ul>
+                                                </div>
+                            
+
+
+                                                          <!-- size end -->
                                                       </div>
-                                                    <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4">
+                                                    <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4 pt-2">
                                                         <!-- <a href="#" class="btn btn-default add-to-cart " style="background-color: #adb5bd !important;"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</a> -->
-                                                        <button type="button" class="btn btn-default add-to-cart text-white"  style="background-color: #FE980F"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
+                                                        <button type="button" class="btn btn-default shadow-none add-to-cart text-white"  style="background-color: #FE980F" (click)="navigateToProduct()"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
                                                      
                                                       </div>
                                                  
@@ -236,14 +437,109 @@
                                             <div class="bg-white pb-3">
                                                         <img src="http://cdn.shopify.com/s/files/1/0071/4755/2866/products/6_5d0f86bb-ecc0-4a68-bfb9-e5aa5d9f67f1_1024x1024.jpg?v=1570400269" class="third-sec-img pb-2" />
                                                         <div class="row">
-                                                          <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4">
+                                                          <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4 pr-4">
                                                             <h4><b>$58</b></h4>
                                                             <p class="mb--10">Easy Polo Black Edition</p>
-                                                        
+                                            <!-- color start      -->
+                                            <div class="">
+                                              <div class="tab-content">
+                                              
+
+                                                <div class="tab-pane active container pl-0" id="color10"><span class="pr-2"><b>COLOR:</b></span>Pink</div>
+                                                <div class="tab-pane container pl-0" id="color11"><span class="pr-2"><b>COLOR:</b></span>Red</div>
+                                                <div class="tab-pane container pl-0" id="color12"><span class="pr-2"><b>COLOR:</b></span>Gray</div>
+                                              </div>
+
+                            
+                                              <ul class="nav pl-0 pt-1  pl-0 center-color mar--left--20">
+                                                <li class="nav-item ">
+                                                  <a class="nav-link pl-0" data-toggle="tab" href="#color10"><span class="dottab" style="background: var(--pink);"></span></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link pl-0" data-toggle="tab" href="#color11" ><span class="dottab" style="background: var(--red);"></span></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link pl-0" data-toggle="tab" href="#color12"><span class="dottab"></span></a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                    
+                                                <!-- color end -->
+
+                                              <!-- size start -->
+
+                                              <div class="">
+                                                <div class="tab-content">
+                                                
+                
+                                                  <div class="tab-pane active container pl-0" id="home1"><span class="pr-2"><b>Size:</b></span></div>
+                                                  <div class="tab-pane container pl-0" id="menu3"><span class="pr-2"><b>Size:</b></span></div>
+                                                  <div class="tab-pane container pl-0" id="menu4"><span class="pr-2"><b>Size:</b></span></div>
+                                                </div>
+                
+                
+                                                <ul class="nav  pt-1 center-size" >
+                                                  <div class="container pr-0">
+                                                    <!-- style="max-width: 330px;" -->
+                                                  <div class="row" >
+                                                    <div class="col-4 col-md-4 pl-0">
+                                                                    <li class="nav-item">
+                                                                      <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#home1">
+                                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                          <h6><b>M</b></h6>
+                                                                          <h6><b>US $ 53</b></h6>
+                
+                                                                        </div>
+                
+                                                                      </a>
+                                                                    </li>
+                
+                                                                  </div>
+                
+                                                    <div class="col-4 col-md-4 pl-0">
+                
+                                                                    <li class="nav-item">
+                                                                      <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu3" >
+                                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                          <h6><b>XL</b></h6>
+                                                                          <h6><b>US $ 53</b></h6>
+                
+                                                                        </div>
+                
+                
+                                                                      </a>
+                                                                    </li>
+                
+                                                                  </div>
+                                                      <div class="col-4 col-md-4 pl-0">
+                                                    
+                                                                    <li class="nav-item">
+                                                                      <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu4">
+                                                                        <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                          <h6><b>2XL</b></h6>
+                                                                          <h6><b>US $ 53</b></h6>
+                
+                                                                        </div>
+                
+                                                                        
+                                                                      </a>
+                                                                    </li>
+                
+                                                                  </div>
+                
+                
+                                                </div>
+                                              </div>
+                                                </ul>
+                                    </div>
+                
+
+
+                                              <!-- size end -->
                                                           </div>
-                                                        <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4">
+                                                        <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4 pt-2">
                                                             <!-- <a href="#" class="btn btn-default add-to-cart " style="background-color: #adb5bd !important;"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</a> -->
-                                                            <button type="button" class="btn btn-default add-to-cart text-white"  style="background-color: #FE980F"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
+                                                            <button type="button" class="btn btn-default shadow-none add-to-cart text-white"  style="background-color: #FE980F" (click)="navigateToProduct()"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
                                                           
                                                           </div>
                                                      
@@ -255,14 +551,109 @@
                                             <div class="bg-white pb-3">
                                                   <img src="http://cdn.shopify.com/s/files/1/0071/4755/2866/products/1-1_300x.jpg?v=1541049088" class="third-sec-img pt-0 pb-2" />
                                                   <div class="row">
-                                                    <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4">
+                                                    <div class="col-md-6 col-sm-6 col-12 text-left text--center pl-4 pr-4">
                                                       <h4><b>$60</b></h4>
                                                       <p class="mb--10">Easy Polo Black Edition</p>
-                                                  
+                                                       <!-- color start      -->
+                                                       <div class="">
+                                                        <div class="tab-content">
+                                                        
+
+                                                          <div class="tab-pane active container pl-0" id="home"><span class="pr-2"><b>COLOR:</b></span>Pink</div>
+                                                          <div class="tab-pane container pl-0" id="menu1"><span class="pr-2"><b>COLOR:</b></span>Red</div>
+                                                          <div class="tab-pane container pl-0" id="menu2"><span class="pr-2"><b>COLOR:</b></span>Gray</div>
+                                                        </div>
+
+                                      
+                                                        <ul class="nav pl-0 pt-1  pl-0 center-color mar--left--20">
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link pl-0" data-toggle="tab" href="#home"><span class="dottab" style="background: var(--pink);"></span></a>
+                                                          </li>
+                                                          <li class="nav-item">
+                                                            <a class="nav-link pl-0" data-toggle="tab" href="#menu1" ><span class="dottab" style="background: var(--red);"></span></a>
+                                                          </li>
+                                                          <li class="nav-item">
+                                                            <a class="nav-link pl-0" data-toggle="tab" href="#menu2"><span class="dottab"></span></a>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                              
+                                                          <!-- color end -->
+
+                                                        <!-- size start -->
+
+                                                        <div class="">
+                                                          <div class="tab-content">
+                                                          
+                          
+                                                            <div class="tab-pane active container pl-0" id="home1"><span class="pr-2"><b>Size:</b></span></div>
+                                                            <div class="tab-pane container pl-0" id="menu3"><span class="pr-2"><b>Size:</b></span></div>
+                                                            <div class="tab-pane container pl-0" id="menu4"><span class="pr-2"><b>Size:</b></span></div>
+                                                          </div>
+                          
+                          
+                                                          <ul class="nav  pt-1 center-size" >
+                                                            <div class="container pr-0">
+                                                              <!-- style="max-width: 330px;" -->
+                                                            <div class="row" >
+                                                              <div class="col-4 col-md-4 pl-0">
+                                                                              <li class="nav-item">
+                                                                                <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#home1">
+                                                                                  <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                    <h6><b>M</b></h6>
+                                                                                    <h6><b>US $ 53</b></h6>
+                          
+                                                                                  </div>
+                          
+                                                                                </a>
+                                                                              </li>
+                          
+                                                                            </div>
+                          
+                                                              <div class="col-4 col-md-4 pl-0">
+                          
+                                                                              <li class="nav-item">
+                                                                                <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu3" >
+                                                                                  <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                    <h6><b>XL</b></h6>
+                                                                                    <h6><b>US $ 53</b></h6>
+                          
+                                                                                  </div>
+                          
+                          
+                                                                                </a>
+                                                                              </li>
+                          
+                                                                            </div>
+                                                                <div class="col-4 col-md-4 pl-0">
+                                                              
+                                                                              <li class="nav-item">
+                                                                                <a class="nav-link pl-0 pr-0" data-toggle="tab" href="#menu4">
+                                                                                  <div class="square border border-secondary text-center pt-3 text-dark">
+                                                                                    <h6><b>2XL</b></h6>
+                                                                                    <h6><b>US $ 53</b></h6>
+                          
+                                                                                  </div>
+                          
+                                                                                  
+                                                                                </a>
+                                                                              </li>
+                          
+                                                                            </div>
+                          
+                          
+                                                          </div>
+                                                        </div>
+                                                          </ul>
+                                              </div>
+                          
+
+
+                                                        <!-- size end -->
                                                     </div>
-                                                  <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4">
+                                                  <div class="col-md-6 col-sm-6 col-12 text-right text-right text--center pr-4 pt-2">
                                                       <!-- <a href="#" class="btn btn-default add-to-cart " style="background-color: #adb5bd !important;"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</a> -->
-                                                      <button type="button" class="btn btn-default add-to-cart text-white"  style="background-color: #FE980F"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
+                                                      <button type="button" class="btn btn-default add-to-cart shadow-none text-white"  style="background-color: #FE980F" (click)="navigateToProduct()"><i class="fa fa-shopping-cart mr--6"></i>Add to cart</button>
                                                     
                                                     </div>
                                                
@@ -287,6 +678,26 @@
     
                                                   </h6>
                                   </div>
+
+                                  <!-- <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4 col-4">
+                                       
+                                        <span><i class="fa fa-shopping-bag mt-5" style="font-size:48px"></i></span>
+
+                                      </div>
+                                      <div class="col-md-8 col-8">
+                                        <div class="card-body">
+                                          <h4 class="pt-4"><b>Free Shipping</b></h4>
+
+                                          <h6 class="third-sec-text pt-4 text-black-50">
+                                            Leorn ipsum dolor sit amet.
+    
+                                                  </h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div> -->
     
                             </div>
                     <!-- </div> 
@@ -361,7 +772,7 @@
                                         <div class="ml-5 mb-5 mar--left--0" >
                                         <!-- <button type="button" class="btn btn-success ml-5 mt-5">SHOPE NOW</button> -->
     
-                                        <button type="button" class="btn  ml-5 text-white mt-4  "  style="background-color: #FE980F">SHOP NOW</button>
+                                        <button type="button" class="btn  ml-5 shadow-none text-white mt-4  "  style="background-color: #FE980F" (click)="navigateToProduct()">SHOP NOW</button>
     
                                         </div>
                                 </div>
@@ -541,7 +952,7 @@
     
                                                 </p>
     
-                                              <button type="button" class="btn  text-white mb-4" style="background-color: #FE980F">VIEW PROFILE</button>
+                                              <button type="button" class="btn  text-white shadow-none mb-4" style="background-color: #FE980F" (click)="navigateToProduct()">VIEW PROFILE</button>
     
                             </div>
     
@@ -551,3 +962,4 @@
               
     </div>
     
+

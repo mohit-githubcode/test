@@ -8,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class ContactUsComponent implements OnInit {
 
   constructor() { }
-
+  fileToUpload: File = null;
   ngOnInit(): void {
   }
+
+
+
+
+
 
 }

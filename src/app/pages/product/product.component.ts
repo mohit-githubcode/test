@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
 
 
@@ -24,7 +25,11 @@ export class ProductComponent implements OnInit {
   }
     
 
- 
+  navigateToCollection(){
+    this.router.navigate(['/catalogue'])
+
+  }
+
  
   new_img:any
    currentSlide(n) {
